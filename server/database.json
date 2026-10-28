@@ -1,0 +1,325 @@
+{
+  "users": [
+    {
+      "id": "u_demo",
+      "name": "Demo Moviegoer",
+      "email": "demo@imovies.com",
+      "password": "$2a$10$iBI0.CKs2eE9lxv1tYToXOocpeaTZePTh3R6POhrHANpQbMEQowQW",
+      "createdAt": "2026-10-28T10:50:10.705Z"
+    }
+  ],
+  "movies": [
+    {
+      "id": "m1",
+      "title": "Dune: Part Two",
+      "genre": "Sci-Fi / Adventure",
+      "duration": "166 min",
+      "rating": "8.6",
+      "releaseYear": 2024,
+      "description": "Paul Atreides unites with Chani and the Fremen while seeking revenge against the conspirators who destroyed his family.",
+      "director": "Denis Villeneuve",
+      "cast": [
+        "Timothée Chalamet",
+        "Zendaya",
+        "Rebecca Ferguson",
+        "Javier Bardem"
+      ],
+      "poster": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=800&q=80",
+      "backdrop": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=1600&q=80",
+      "featured": true,
+      "showtimes": [
+        {
+          "id": "st1-1",
+          "time": "10:30 AM",
+          "screen": "IMAX Laser",
+          "price": 18,
+          "date": "Today"
+        },
+        {
+          "id": "st1-2",
+          "time": "02:15 PM",
+          "screen": "Dolby Cinema",
+          "price": 16,
+          "date": "Today"
+        },
+        {
+          "id": "st1-3",
+          "time": "06:45 PM",
+          "screen": "IMAX Laser",
+          "price": 20,
+          "date": "Today"
+        },
+        {
+          "id": "st1-4",
+          "time": "09:30 PM",
+          "screen": "Screen 1 (Standard)",
+          "price": 12,
+          "date": "Today"
+        },
+        {
+          "id": "st1-5",
+          "time": "03:00 PM",
+          "screen": "IMAX Laser",
+          "price": 18,
+          "date": "Tomorrow"
+        }
+      ]
+    },
+    {
+      "id": "m2",
+      "title": "Oppenheimer",
+      "genre": "Biography / Drama / History",
+      "duration": "180 min",
+      "rating": "8.9",
+      "releaseYear": 2023,
+      "description": "The story of American scientist J. Robert Oppenheimer and his role in the development of the atomic bomb during World War II.",
+      "director": "Christopher Nolan",
+      "cast": [
+        "Cillian Murphy",
+        "Emily Blunt",
+        "Matt Damon",
+        "Robert Downey Jr."
+      ],
+      "poster": "https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=800&q=80",
+      "backdrop": "https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?auto=format&fit=crop&w=1600&q=80",
+      "featured": true,
+      "showtimes": [
+        {
+          "id": "st2-1",
+          "time": "11:00 AM",
+          "screen": "70mm IMAX",
+          "price": 22,
+          "date": "Today"
+        },
+        {
+          "id": "st2-2",
+          "time": "04:30 PM",
+          "screen": "Dolby Cinema",
+          "price": 16,
+          "date": "Today"
+        },
+        {
+          "id": "st2-3",
+          "time": "08:15 PM",
+          "screen": "70mm IMAX",
+          "price": 22,
+          "date": "Today"
+        },
+        {
+          "id": "st2-4",
+          "time": "05:00 PM",
+          "screen": "Screen 2",
+          "price": 13,
+          "date": "Tomorrow"
+        }
+      ]
+    },
+    {
+      "id": "m3",
+      "title": "Spider-Man: Across the Spider-Verse",
+      "genre": "Animation / Action / Adventure",
+      "duration": "140 min",
+      "rating": "8.7",
+      "releaseYear": 2023,
+      "description": "Miles Morales catapults across the Multiverse, where he encounters a team of Spider-People charged with protecting its very existence.",
+      "director": "Joaquim Dos Santos, Kemp Powers",
+      "cast": [
+        "Shameik Moore",
+        "Hailee Steinfeld",
+        "Oscar Isaac",
+        "Daniel Kaluuya"
+      ],
+      "poster": "https://images.unsplash.com/photo-1635805737707-575885ab0820?auto=format&fit=crop&w=800&q=80",
+      "backdrop": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=1600&q=80",
+      "featured": false,
+      "showtimes": [
+        {
+          "id": "st3-1",
+          "time": "01:00 PM",
+          "screen": "Screen 3 (4DX)",
+          "price": 17,
+          "date": "Today"
+        },
+        {
+          "id": "st3-2",
+          "time": "04:15 PM",
+          "screen": "Dolby Atmos",
+          "price": 15,
+          "date": "Today"
+        },
+        {
+          "id": "st3-3",
+          "time": "07:30 PM",
+          "screen": "Screen 3 (4DX)",
+          "price": 17,
+          "date": "Today"
+        }
+      ]
+    },
+    {
+      "id": "m4",
+      "title": "Interstellar",
+      "genre": "Sci-Fi / Adventure / Drama",
+      "duration": "169 min",
+      "rating": "8.7",
+      "releaseYear": 2014,
+      "description": "When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft along with a team of researchers.",
+      "director": "Christopher Nolan",
+      "cast": [
+        "Matthew McConaughey",
+        "Anne Hathaway",
+        "Jessica Chastain",
+        "Michael Caine"
+      ],
+      "poster": "https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?auto=format&fit=crop&w=800&q=80",
+      "backdrop": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1600&q=80",
+      "featured": false,
+      "showtimes": [
+        {
+          "id": "st4-1",
+          "time": "12:30 PM",
+          "screen": "IMAX Classic",
+          "price": 18,
+          "date": "Today"
+        },
+        {
+          "id": "st4-2",
+          "time": "06:00 PM",
+          "screen": "IMAX Classic",
+          "price": 20,
+          "date": "Today"
+        },
+        {
+          "id": "st4-3",
+          "time": "09:45 PM",
+          "screen": "Screen 1",
+          "price": 12,
+          "date": "Today"
+        }
+      ]
+    },
+    {
+      "id": "m5",
+      "title": "Cyberpunk: Neon Genesis",
+      "genre": "Action / Sci-Fi / Cyberpunk",
+      "duration": "135 min",
+      "rating": "8.4",
+      "releaseYear": 2025,
+      "description": "In a neon-drenched dystopia, a rogue memory-hacker discovers a digital conspiracy that threatens the freedom of the human mind.",
+      "director": "Alex Garland",
+      "cast": [
+        "Ana de Armas",
+        "Keanu Reeves",
+        "Steven Yeun"
+      ],
+      "poster": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=800&q=80",
+      "backdrop": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=1600&q=80",
+      "featured": true,
+      "showtimes": [
+        {
+          "id": "st5-1",
+          "time": "02:45 PM",
+          "screen": "Dolby Atmos",
+          "price": 15,
+          "date": "Today"
+        },
+        {
+          "id": "st5-2",
+          "time": "08:00 PM",
+          "screen": "IMAX Laser",
+          "price": 19,
+          "date": "Today"
+        },
+        {
+          "id": "st5-3",
+          "time": "11:00 PM",
+          "screen": "Screen 4",
+          "price": 13,
+          "date": "Today"
+        }
+      ]
+    },
+    {
+      "id": "m6",
+      "title": "The Batman: Shadow of Arkham",
+      "genre": "Action / Crime / Mystery",
+      "duration": "155 min",
+      "rating": "8.5",
+      "releaseYear": 2024,
+      "description": "Batman ventures into Gotham City's underworld when a sadistic killer leaves behind a trail of cryptic clues.",
+      "director": "Matt Reeves",
+      "cast": [
+        "Robert Pattinson",
+        "Zoë Kravitz",
+        "Paul Dano",
+        "Colin Farrell"
+      ],
+      "poster": "https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=800&q=80",
+      "backdrop": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1600&q=80",
+      "featured": false,
+      "showtimes": [
+        {
+          "id": "st6-1",
+          "time": "03:15 PM",
+          "screen": "Screen 2",
+          "price": 14,
+          "date": "Today"
+        },
+        {
+          "id": "st6-2",
+          "time": "07:15 PM",
+          "screen": "Dolby Cinema",
+          "price": 17,
+          "date": "Today"
+        },
+        {
+          "id": "st6-3",
+          "time": "10:15 PM",
+          "screen": "Screen 2",
+          "price": 14,
+          "date": "Today"
+        }
+      ]
+    }
+  ],
+  "bookings": [
+    {
+      "id": "bk-101",
+      "userId": "u_demo",
+      "movieTitle": "Dune: Part Two",
+      "movieId": "m1",
+      "showtimeId": "st1-3",
+      "showtime": "06:45 PM",
+      "screen": "IMAX Laser",
+      "date": "Today",
+      "seats": [
+        "C4",
+        "C5"
+      ],
+      "totalPrice": 40,
+      "bookingCode": "IMO-78921",
+      "createdAt": "2026-10-28T09:50:10.706Z"
+    }
+  ],
+  "reservedSeats": {
+    "st1-1": [
+      "B3",
+      "B4",
+      "C5"
+    ],
+    "st1-3": [
+      "C4",
+      "C5",
+      "D5",
+      "D6"
+    ],
+    "st2-1": [
+      "E5",
+      "E6"
+    ],
+    "st3-1": [
+      "A1",
+      "A2"
+    ]
+  }
+}

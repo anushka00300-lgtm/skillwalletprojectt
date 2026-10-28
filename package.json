@@ -1,0 +1,22 @@
+{
+  "name": "imovies-platform",
+  "version": "1.0.0",
+  "description": "IMovies – Full-stack Online Movie Ticket Booking Platform",
+  "scripts": {
+    "server": "node server/server.js",
+    "client": "npm.cmd --prefix client run dev",
+    "build": "npm.cmd --prefix client run build"
+  },
+  "keywords": [
+    "movie-booking",
+    "react",
+    "express",
+    "mongodb",
+    "cinema"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "isomorphic-git": "^1.44.7"
+  }
+}
